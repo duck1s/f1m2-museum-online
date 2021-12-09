@@ -5,5 +5,13 @@
 }
 
 #rijksmuseumlogo {
-	width: 100vw;
+	width: 80vw;
+}
+
+body {
+	margin: 50px;
+}
+
+img {
+	width: 50vw;
 }
