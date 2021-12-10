@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 /* Header */
@@ -22,7 +22,8 @@ header {
 	fill: white;
 }
 
-#bezoek, #language {
+#bezoek,
+#language {
 	position: absolute;
 	bottom: 10%;
 	color: white;
@@ -45,21 +46,20 @@ img {
 /* Information section */
 #information {
 	min-height: 100vh;
-	background-image: url(../img/rijksmuseum2.jpg);
-	background-blend-mode: darken;
+	background: url(../img/rijksmuseum2.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 10%;
 }
 
 #information:hover {
-	background-blend-mode: darken;
+	background: black;
 }
 
 .title {
 	color: white;
 	font-size: 4rem;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	padding-bottom: 10px;
 	border-bottom: 2px solid white;
 	width: fit-content;
@@ -69,11 +69,13 @@ img {
 	max-width: 50vw;
 	color: white;
 	font-size: 1.5rem;
+	transition: all 0.5s ease-in-out;
 }
 
 /* Media */
-@media(max-width: 1000px) {
-	#bezoek, #language {
+@media (max-width: 1000px) {
+	#bezoek,
+	#language {
 		position: unset;
 		text-align: center;
 		margin: 50px;
@@ -85,5 +87,4 @@ img {
 	#rijksmuseumlogo {
 		margin-bottom: 10%;
 	}
-
 }
