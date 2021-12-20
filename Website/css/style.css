@@ -35,41 +35,76 @@ header {
 
 #language {
 	right: 10%;
-	border-bottom: 2px solid white;
-	padding-bottom: 10px;
 }
 
 img {
 	width: 50vw;
 }
 
-/* Information section */
+/* Article */
 #information {
 	min-height: 100vh;
 	background: url(../img/rijksmuseum2.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 10%;
+	position: relative;
 }
 
-#information:hover {
-	background: black;
+#onlineMuseum {
+	min-height: 100vh;
+	background: url(../img/rijksmuseum4.jpg);
+	padding: 10%;
+	position: relative;
+}
+
+#geschiedenis {
+	min-height: 100vh;
+	padding: 10%;
+	background: url(../img/rijksmuseum6.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+#activiteiten {
+	min-height: 100vh;
+	background: gray;
+	padding: 10%;
+	position: relative;
+}
+
+#reviews {
+	min-height: 100vh;
+	background: lightgray;
+	padding: 10%;
+	position: relative;
+}
+
+#contact {
+	min-height: 100vh;
+	background: gray;
+	padding: 10%;
+	position: relative;
 }
 
 .title {
 	color: white;
-	font-size: 4rem;
+	font-size: 5rem;
 	margin-bottom: 50px;
-	padding-bottom: 10px;
-	border-bottom: 2px solid white;
 	width: fit-content;
+	position: absolute;
+	bottom: 10%;
 }
 
-.pagetext {
+.pageText {
 	max-width: 50vw;
-	color: white;
-	font-size: 1.5rem;
+	color: #c2ccce;
+	font-size: 22px;
 	transition: all 0.5s ease-in-out;
+	background: #41474e;
+	min-width: 100vw;
+	padding: 4% 10%;
 }
 
 /* Media */
