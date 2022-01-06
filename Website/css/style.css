@@ -22,8 +22,9 @@ header {
 	fill: white;
 }
 
+
 #bezoek,
-#language {
+#openingstijden {
 	position: absolute;
 	bottom: 10%;
 	color: white;
@@ -33,7 +34,7 @@ header {
 	left: 10%;
 }
 
-#language {
+#openingstijden {
 	right: 10%;
 }
 
@@ -42,50 +43,43 @@ img {
 }
 
 /* Article */
-#information {
+
+.cover {
 	min-height: 100vh;
-	background: url(../img/rijksmuseum2.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 10%;
 	position: relative;
+}
+
+#information {
+	background: url(../img/rijksmuseum2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #onlineMuseum {
-	min-height: 100vh;
 	background: url(../img/rijksmuseum4.jpg);
-	padding: 10%;
-	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #geschiedenis {
-	min-height: 100vh;
-	padding: 10%;
 	background: url(../img/rijksmuseum6.jpg);
-	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
-	position: relative;
 }
 
 #activiteiten {
-	min-height: 100vh;
 	background: gray;
-	padding: 10%;
-	position: relative;
 }
 
 #reviews {
-	min-height: 100vh;
 	background: lightgray;
-	padding: 10%;
-	position: relative;
 }
 
 #contact {
-	min-height: 100vh;
 	background: gray;
-	padding: 10%;
-	position: relative;
 }
 
 .title {
@@ -104,13 +98,13 @@ img {
 	transition: all 0.5s ease-in-out;
 	background: #41474e;
 	min-width: 100vw;
-	padding: 4% 10%;
+	padding: 5% 10%;
 }
 
 /* Media */
 @media (max-width: 1000px) {
 	#bezoek,
-	#language {
+	#openingstijden {
 		position: unset;
 		text-align: center;
 		margin: 50px;
@@ -121,5 +115,17 @@ img {
 	}
 	#rijksmuseumlogo {
 		margin-bottom: 10%;
+	}
+	.cover {
+		min-height: 75vh;
+	}
+	.title {
+		-webkit-transform: translateX(-50%);
+		left: 50%;
+		bottom: 20%;
+		font-size: 3rem;
+	}
+	.pageText {
+		font-size: 11px;
 	}
 }
