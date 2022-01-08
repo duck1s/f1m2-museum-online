@@ -215,9 +215,36 @@ img {
 		-webkit-transform: translateX(-50%);
 		left: 50%;
 		bottom: 20%;
-		font-size: 3rem;
+		font-size: 2rem;
+	}
+	.reviewTitle, .contactTitle {
+		font-size: 2rem;
+	}
+	.reviewTitle {
+		text-align: center;
 	}
 	.pageText {
 		font-size: 11px;
+	}
+	#reviewImgs {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#contact ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#contact.pageText {
+		align-items: center;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+	#contact {
+		min-height: 50vh;
 	}
 }
