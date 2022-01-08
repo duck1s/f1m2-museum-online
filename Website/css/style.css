@@ -57,7 +57,7 @@ header {
 
 #informatie {
 	background: url("../img/rijksmuseum2.jpg");
-	animation: slideBg 20s ease-in infinite;
+	animation: slideBg 20s ease-in-out infinite;
 	animation-timing-function: ease-in-out;
 	backface-visibility: hidden;
 	background-position: center center;
