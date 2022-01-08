@@ -26,7 +26,6 @@ header {
 	fill: white;
 }
 
-
 #bezoek,
 #openingstijden {
 	position: absolute;
@@ -45,11 +44,6 @@ header {
 #openingstijden a {
 	color: white;
 	text-decoration: none;
-
-}
-
-img {
-	width: 50vw;
 }
 
 /* Article */
@@ -62,7 +56,7 @@ img {
 }
 
 #informatie {
-	background: url('../img/rijksmuseum2.jpg');
+	background: url("../img/rijksmuseum2.jpg");
 	animation: slideBg 20s ease-in infinite;
 	animation-timing-function: ease-in-out;
 	backface-visibility: hidden;
@@ -74,32 +68,31 @@ img {
 	overflow-x: hidden;
 	overflow: hidden;
 	max-width: 100vw;
-
 }
 
-@keyframes slideBg{
+@keyframes slideBg {
 	0% {
-		background-image: url('../img/rijksmuseum1.jpg');
+		background-image: url("../img/rijksmuseum1.jpg");
 	}
 
 	20% {
-		background-image: url('../img/slide1.jpg');
+		background-image: url("../img/slide1.jpg");
 	}
 
 	40% {
-		background-image: url('../img/slide2.jpg');
+		background-image: url("../img/slide2.jpg");
 	}
 
 	60% {
-		background-image: url('../img/slide3.jpg');
+		background-image: url("../img/slide3.jpg");
 	}
 
 	80% {
-		background-image: url('../img/slide4.jpg');
+		background-image: url("../img/slide4.jpg");
 	}
 
 	100% {
-		background-image: url('../img/rijksmuseum1.jpg');
+		background-image: url("../img/rijksmuseum1.jpg");
 	}
 }
 
@@ -125,14 +118,12 @@ img {
 	background: white;
 	display: flex;
 	justify-content: center;
-}
-
-.reviewImg {
-	size: 50%;
-}
-
-#reviewsImgs {
 	margin: 10% 0;
+	max-width: 80vw;
+}
+
+#reviewImgs img {
+	width: 40vw;
 }
 
 .reviewTitle {
@@ -183,7 +174,6 @@ img {
 	transition: 0.2s;
 }
 
-
 #contact li {
 	list-style: none;
 	float: left;
@@ -223,7 +213,8 @@ img {
 		bottom: 20%;
 		font-size: 2rem;
 	}
-	.reviewTitle, .contactTitle {
+	.reviewTitle,
+	.contactTitle {
 		font-size: 2rem;
 	}
 	.reviewTitle {
