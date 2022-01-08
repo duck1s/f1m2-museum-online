@@ -42,6 +42,12 @@ header {
 	right: 10%;
 }
 
+#openingstijden a {
+	color: white;
+	text-decoration: none;
+
+}
+
 img {
 	width: 50vw;
 }
