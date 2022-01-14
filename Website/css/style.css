@@ -118,8 +118,11 @@ header {
 	background: white;
 	display: flex;
 	justify-content: center;
-	margin: 10% 0;
 	max-width: 80vw;
+}
+
+section#reviews.cover {
+	min-height: min-content;
 }
 
 #reviewImgs img {
@@ -219,6 +222,9 @@ header {
 	}
 	.reviewTitle {
 		text-align: center;
+	}
+	section#reviews.cover {
+		min-height: min-content;
 	}
 	.pageText {
 		font-size: 11px;
