@@ -11,7 +11,6 @@ images[3] = '../img/slide3.jpg';
 images[4] = '../img/slide4.jpg';
 
 function changeImg() {
-    informationSlide.style.transition = "ease-in-out"
     informationSlide.src = images[index];
     if (index < images.length - 1) {
         index++;
