@@ -56,44 +56,14 @@ header {
 }
 
 #informatie {
-	background: url("../img/rijksmuseum2.jpg");
-	animation: slideBg 20s ease-in-out infinite;
-	animation-timing-function: ease-in-out;
-	backface-visibility: hidden;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100vw;
 	height: 100vh;
-	overflow-x: hidden;
-	overflow: hidden;
 	max-width: 100vw;
+	position: relative;
 }
 
-@keyframes slideBg {
-	0% {
-		background-image: url("../img/rijksmuseum1.jpg");
-	}
-
-	20% {
-		background-image: url("../img/slide1.jpg");
-	}
-
-	40% {
-		background-image: url("../img/slide2.jpg");
-	}
-
-	60% {
-		background-image: url("../img/slide3.jpg");
-	}
-
-	80% {
-		background-image: url("../img/slide4.jpg");
-	}
-
-	100% {
-		background-image: url("../img/rijksmuseum1.jpg");
-	}
+.informationTitle {
+	position: absolute;
+	padding-left: 10%;
 }
 
 #onlineMuseum {
