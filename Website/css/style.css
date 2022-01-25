@@ -7,6 +7,7 @@
 
 body {
 	overflow-x: hidden;
+	background: #2b2f33;
 }
 
 /* Header */
@@ -26,6 +27,15 @@ header {
 	fill: white;
 }
 
+#reviews.cover {
+	background: white;
+}
+
+.bezoekA {
+	color: white;
+	text-decoration: none;
+}
+
 #bezoek,
 #openingstijden {
 	position: absolute;
@@ -35,6 +45,9 @@ header {
 
 #bezoek {
 	left: 10%;
+	border: 1px solid white;
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.6)
 }
 
 #openingstijden {
@@ -44,6 +57,15 @@ header {
 #openingstijden a {
 	color: white;
 	text-decoration: none;
+}
+
+#informationSlide {
+    opacity:1;
+    transition: 0.5s ease-in-out; 
+}
+
+#informationSlide.fadeOut {
+    opacity: 0;
 }
 
 /* Article */
@@ -109,12 +131,13 @@ section#reviews.cover {
 #contact {
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 }
 
-#contactTitle {
+.contactTitle {
 	color: white;
-	margin-right: 10vw;
-	font-size: 5rem;
+	font-size: 3rem;
+	margin-bottom: 50px;
 }
 
 #contact ul {
@@ -134,12 +157,11 @@ section#reviews.cover {
 }
 
 #contact a {
-	color: #c2ccce;
+	color: white;
 	text-decoration: none;
-	border: 1px solid #c2ccce;
 	padding: 10px;
 	margin-left: 0;
-	border-radius: 2px;
+	border-bottom: 2px solid white;
 }
 
 #contact a:hover {
@@ -219,5 +241,12 @@ section#reviews.cover {
 	}
 	#contact {
 		min-height: 50vh;
+	}
+	#contact a {
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
+	#reviewImgs img {
+		width: 60vw;
 	}
 }

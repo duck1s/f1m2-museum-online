@@ -1,23 +1,20 @@
-const informationSlide = document.getElementById('informationSlide');
+var images = [
+    '../img/rijksmuseum1.jpg',
+    '../img/slide1.jpg',
+    '../img/slide2.jpg',
+    '../img/slide3.jpg',
+    '../img/slide4.jpg'],
+    index = 0;
+    time = 5000;
 
-var index = 0;
-var images = [];
-var time = 5000;
-
-images[0] = '../img/rijksmuseum1.jpg';
-images[1] = '../img/slide1.jpg';
-images[2] = '../img/slide2.jpg';
-images[3] = '../img/slide3.jpg';
-images[4] = '../img/slide4.jpg';
-
-function changeImg() {
-    informationSlide.src = images[index];
-    if (index < images.length - 1) {
-        index++;
-    } else {
-        index = 0;
-    }
-    setTimeout("changeImg()", time);
+function slideShow() {
+    document.getElementById('informationSlide').className += "fadeOut";
+    setTimeout(function() {
+        document.getElementById('informationSlide').src = images[index];
+        document.getElementById('informationSlide').className = "";
+    },500);
+    index++;
+    if (index == images.length) { index = 0; }
+    setTimeout(slideShow, time);
 }
-
-window.onload = changeImg();
+slideShow();
