@@ -88,13 +88,6 @@ header {
 	padding-left: 10%;
 }
 
-#onlineMuseum {
-	background: url(../img/rijksmuseum4.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
 #geschiedenis {
 	background: url(../img/rijksmuseum6.jpg);
 	background-repeat: no-repeat;
@@ -184,6 +177,35 @@ section#reviews.cover {
 	padding: 5% 10%;
 }
 
+/* Tour */
+
+#onlineMuseum {
+	background: url(../img/rijksmuseum4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background: #41474e;
+}
+
+#onlineMuseumText {
+	color: #c2ccce;
+	padding: 5% 10%;
+	background: #41474e;
+	display: flex;
+	gap: 50px;
+	font-size: 20px;
+}
+
+#myInteraction {
+	padding: 10px;
+}
+
+#myImage {
+	height: 80vh;
+	width: 100vw;
+	object-fit: cover;
+}
+
 /* Media */
 @media (max-width: 1000px) {
 	#bezoek,
@@ -218,8 +240,11 @@ section#reviews.cover {
 	section#reviews.cover {
 		min-height: min-content;
 	}
-	.pageText {
+	.pageText, #onlineMuseumText {
 		font-size: 11px;
+	}
+	#onlineMuseumText {
+		flex-direction: column;
 	}
 	#reviewImgs {
 		display: flex;
