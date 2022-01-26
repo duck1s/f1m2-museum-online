@@ -21,7 +21,7 @@
     <main>
         <article>
             <section id="informatie">
-                <img src="" style="width: 100%; height: 100%; object-fit: cover;" id="informationSlide">
+                <img src="" style="width: 100%; height: 100%; object-fit: cover;" id="informationSlide" class="fadeOut">
                 <h2 class="informationTitle title">INFORMATION</h2>
             </section>
             <section id="informationText">
@@ -54,11 +54,24 @@
 
             </section>
 
-            <section id="onlineMuseum" class="cover">
-                <h2 class="title">MUSEUM TOUR</h2>
+            <section id="onlineMuseum">
+                <img id="myImage" src="img/0.jpg" alt="foto sb">
+                <h2 id="museumTitle" class="title">INTERACTIVE ROUTE</h2>
             </section>
             <section id="onlineMuseumText">
-                <p class="pageText">Space for console input</p>
+                <div class="links">
+                    <div id="myInteraction">
+                        <div id="myTitle">hier komt de titel</div>
+                        <input autofocus autocomplete="off" type="text" id="myInput"><button onclick="getInput()">enter</button>                
+                    </div>
+                </div>
+                <div class="rechts">
+                    <p>0. Room with Nachtwacht</p>
+                    <p>1. Room with other big art</p>
+                    <p>2. Room with Melkmeisje</p>
+                    <p>3. Room with small art</p>
+                    <p>4. Hall with a lot of art</p>
+                </div>
             </section>
             <section id="geschiedenis" class="cover">
                 <h2 class="title">HISTORY</h2>
@@ -102,8 +115,8 @@
     </main>
     <footer>
         <section id="contact" class="pageText">
+        <li><h2 class="contactTitle">CONTACT</h2></li>
             <ul>
-                <li><h2 class="contactTitle">CONTACT</h2></li>
                 <li><a href="https://www.instagram.com/rijksmuseum/">Instagram</a></li>
                 <li><a href="https://www.facebook.com/rijksmuseum/">Facebook</a></li>
                 <li><a href="https://twitter.com/rijksmuseum">Twitter</a></li>
@@ -113,6 +126,6 @@
             </ul>
         </section>
     </footer>
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

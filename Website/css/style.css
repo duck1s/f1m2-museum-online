@@ -185,6 +185,7 @@ section#reviews.cover {
 	background-position: center;
 	background-size: cover;
 	background: #41474e;
+	position: relative;
 }
 
 #onlineMuseumText {
@@ -200,10 +201,16 @@ section#reviews.cover {
 	padding: 10px;
 }
 
+#museumTitle {
+	position: absolute;
+	padding-left: 10%;
+}
+
 #myImage {
 	height: 80vh;
 	width: 100vw;
 	object-fit: cover;
+	position: relative;
 }
 
 /* Media */
