@@ -358,6 +358,7 @@ section#reviews.cover {
 	}
 	#contact {
 		min-height: 50vh;
+		padding-bottom: 5vh;
 	}
 	#contact a {
 		padding-left: 10vw;
