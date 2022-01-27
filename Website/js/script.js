@@ -1,9 +1,9 @@
 var images = [
-    '../img/rijksmuseum1.jpg',
-    '../img/slide1.jpg',
-    '../img/slide2.jpg',
-    '../img/slide3.jpg',
-    '../img/slide4.jpg'],
+    'img/rijksmuseum1.jpg',
+    'img/slide1.jpg',
+    'img/slide2.jpg',
+    'img/slide3.jpg',
+    'img/slide4.jpg'],
     index = 0;
     time = 5000;
 
