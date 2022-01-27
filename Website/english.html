@@ -65,12 +65,19 @@
                         <input autofocus autocomplete="off" type="text" id="myInput"><button onclick="getInput()">enter</button>                
                     </div>
                 </div>
-                <div class="rechts">
-                    <p>0. Room with Nachtwacht</p>
-                    <p>1. Room with other big art</p>
-                    <p>2. Room with Melkmeisje</p>
-                    <p>3. Room with small art</p>
-                    <p>4. Hall with a lot of art</p>
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                      <button class="gray" onclick="show(0)">0. Kamer met Nachtwacht</button>
+                      <button onclick="show(1)">1. Kamer met andere grote schilderijen</button>
+                      <button class="gray" onclick="show(2)">2. Kamer met Melkmeisje</button>
+                      <button onclick="show(3)">3. Ruimte met kleine schilderijen</button>
+                      <button class="gray" onclick="show(4)">4. Gang met veel kamers en schilderijen</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="plattegronddiv">
+                    <img class="plattegrond" src="img/plattegrond.jpg">
                 </div>
             </section>
             <section id="geschiedenis" class="cover">
