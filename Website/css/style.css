@@ -334,7 +334,9 @@ section#reviews.cover {
 		flex-direction: column;
 		align-items: center;
 	}
-
+	#rijksmuseumlogo {
+		margin-top: 0;
+	}
 
 	#reviewImgs {
 		display: flex;
