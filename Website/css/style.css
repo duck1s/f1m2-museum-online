@@ -313,6 +313,14 @@ section#reviews.cover {
 	.contactTitle {
 		font-size: 2rem;
 	}
+	.english A,
+	#openingstijden,
+	#bezoek {
+		font-size: 1rem;
+	}
+	.english {
+		padding: 10px 15px;
+	}
 	.reviewTitle {
 		text-align: center;
 	}
