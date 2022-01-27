@@ -36,7 +36,7 @@ let current_index = 0;
 
 let lokaties = [
     {
-        "titel":"0. Kamer met Nachtwacht",
+        "titel":"Kamer met Nachtwacht",
         "image":"img/0.jpg",
         "directions": {
             "noord":1,
@@ -46,28 +46,28 @@ let lokaties = [
         }
     },
     {
-        "titel":"1. Kamer met andere grote schilderijen",
+        "titel":"Kamer met andere grote schilderijen",
         "image":"img/1.jpg",
         "directions": {
             "zuid":0
         }
     },
     {
-        "titel":"2. Kamer met Melkmeisje",
+        "titel":"Kamer met Melkmeisje",
         "image":"img/2.jpg",
         "directions": {
             "west":0
         }
     },
     {
-        "titel":"3. Ruimte met kleine schilderijen",
+        "titel":"Ruimte met kleine schilderijen",
         "image":"img/3.jpg",
         "directions": {
             "noord":0
         }
     },
     {
-        "titel":"4. Gang met heel veel kamers en schilderijen",
+        "titel":"Gang met heel veel kamers en schilderijen",
         "image":"img/4.jpg",
         "directions": {
             "oost":0,

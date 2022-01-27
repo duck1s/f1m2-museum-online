@@ -15,8 +15,8 @@
         <figure>
             <img id="rijksmuseumlogo" src="img/rijksmuseum.svg" alt="Rijksmuseum logo">
         </figure>
-        <h2 id="bezoek"><a class="bezoekA" href="https://www.rijksmuseum.nl/nl/tickets/artikelen?utm_expid=.pPw6AdirT7Okm2pKwQ5XAg.0&utm_referrer=http%3A%2F%2Fwww.rijksmuseum.nl%2Fen">KOM NU OP BEZOEK!</a></h2>
-        <h2 id="openingstijden">ELKE DAG OPEN 09:00 - 17:00 <br><a href="english.html">ENGLISH</a></h2>
+        <h2 id="openingstijden"><a class="english" href="english.html">ENGLISH</a> <br> <br> ELKE DAG OPEN 09:00 - 17:00</h2>
+        <h2 id="bezoek"><a class="bezoekA" href="https://www.rijksmuseum.nl/nl/tickets/artikelen?utm_expid=.pPw6AdirT7Okm2pKwQ5XAg.0&utm_referrer=http%3A%2F%2Fwww.rijksmuseum.nl%2Fen">TICKETS</a></h2>
     </header>
     <main>
         <article>
@@ -65,15 +65,22 @@
                 <div class="links">
                     <div id="myInteraction">
                         <div id="myTitle">hier komt de titel</div>
-                        <input autofocus autocomplete="off" type="text" id="myInput"><button onclick="getInput()">voer in</button>                
+                        <input autofocus autocomplete="off" type="text" id="myInput"><button onclick="getInput()">enter</button>                
                     </div>
                 </div>
-                <div class="rechts">
-                    <p>0. Kamer met Nachtwacht</p>
-                    <p>1.Kamer met andere grote schilderijen</p>
-                    <p>2. Kamer met Melkmeisje</p>
-                    <p>3. Ruimte met kleine schilderijen</p>
-                    <p>4. Gang met heel veel kamers en schilderijen</p>
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                      <button class="gray" onclick="show(0)">0. Kamer met Nachtwacht</button>
+                      <button onclick="show(1)">1. Kamer met andere grote schilderijen</button>
+                      <button class="gray" onclick="show(2)">2. Kamer met Melkmeisje</button>
+                      <button onclick="show(3)">3. Ruimte met kleine schilderijen</button>
+                      <button class="gray" onclick="show(4)">4. Gang met veel kamers en schilderijen</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="plattegronddiv">
+                    <img class="plattegrond" src="img/plattegrond.jpg">
                 </div>
             </section>
             <section id="geschiedenis" class="cover">
